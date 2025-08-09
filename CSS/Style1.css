@@ -1,0 +1,345 @@
+a{
+    text-decoration:none;
+    color: gold;
+}
+header {
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+    background-color:white;
+    height: 80px;    
+}
+.meenu {
+    position:fixed;
+}
+.menu{
+    
+    right: 650px;
+    background-color: white;
+    
+}
+header .logo{
+    width: 30%;
+    text-transform: uppercase;
+}
+header ul.menu{
+   display: flex;
+   list-style: none;
+ 
+}
+header ul.menu>li{
+    right: 25px;
+    left: 30px;
+    margin: 0 10px; /* Khoảng cách giữa các mục menu */
+    margin-top: 25px;
+    font-size: 15px;
+    width: 120px;
+   
+}
+header ul.menu>li{
+    border: none;
+}
+
+header ul.menu>li>ul{
+    background-color:chocolate;
+    list-style: none;
+    top: 42px;
+    width: 170px ;
+    display: none;
+}
+header ul.menu>li>ul>li{
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}
+header ul.menu>li:hover>ul{
+    display: block;
+
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.img-align{
+    text-align: left; /* Căn giữa văn bản */
+    font-size: 20px; /* Cỡ chữ */
+    color: #333;
+}
+.img
+{
+    display: inline-block;
+    margin: 40px;
+}
+.content{
+    background-color:white;
+    font-size: 20px;
+}
+.content of content{
+    text-indent: 100px;
+}
+
+.socials-share {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.socials-share a {
+    padding: 4px 30px;
+    color: #fff;
+    line-height: 2em;
+    text-decoration: none;
+    border-radius: 2px;
+    white-space: nowrap;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.socials-share span.fa {
+    margin-right: 3px;
+}
+
+.bg-facebook {
+    background: #3a5899;
+}
+
+.bg-facebook:hover, .bg-facebook:focus {
+    background: #1d418d;
+}
+
+.bg-twitter {
+    background: #2a99ed;
+}
+
+.bg-twitter:hover, .bg-twitter:focus {
+    background: #268ad5;
+}
+
+.bg-google-plus {
+    background: #db4437;
+}
+
+.bg-google-plus:hover, .bg-google-plus:focus {
+    background: #bb2a1d;
+}
+
+.bg-pinterest {
+    background: #cb1e26;
+}
+
+.bg-pinterest:hover, .bg-pinterest:focus {
+    background: #ae0e15;
+}
+
+.bg-email {
+    background: #dd5348;
+}
+
+.bg-email:hover, .bg-email:focus {
+    background: #ce3f34;
+}
+.text1{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.text-white{
+    text-decoration: none;
+}
+#BD{
+    background-image: url(../image/11.jpg);
+}
+.content1{
+    text-align: left;
+}
+#BG{
+    background-color:blanchedalmond;
+}
+.menu a {
+    color: black;
+    
+}
+.tb1{
+    margin-top: 30px;
+}
+table{
+        margin: 100px ;
+        margin-top: 90px;
+        margin-bottom: 2%;
+        width: 60%; /* Bảng chiếm 50% chiều rộng của màn hình */
+        background-color: rgb(240, 240, 240);
+        border-radius: 15px 15px 15px 15px;
+        
+}
+    td {
+        border: 3px solid black;
+        padding: 8px; /* Khoảng cách giữa nội dung và đường viền */
+    }
+.eee a{
+    color: red;
+} 
+#logo-container {
+    position: relative;
+    display: inline-block;
+}
+
+#text {
+    position: absolute;
+    top: 0;
+    left: 90px; /* Khoảng cách từ trái sang phải */
+}
+.td1{
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+}
+.td2{
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgb(245, 245, 245);
+    width: 400px;
+}
+.tda {
+    border: 2px dashed #000;
+}
+.tda a{ 
+    color: black;
+}
+table #td5{
+    border-radius: 15px 15px 15px 15px;
+    background-color: green;
+}
+.tb2{
+    border-collapse: collapse; 
+    
+}
+.tb2 td, .tb2 th {
+    border: 1px solid #ccc; /* Độ dày và màu sắc viền cho ô dữ liệu */
+    padding: 10px; /* Khoảng cách giữa nội dung và viền */
+}
+.tb3{
+    position: absolute;
+    left: 900px;
+    top: 21px;
+    
+}
+.tb4{
+    position: absolute;
+    left: 900px;
+    top: 270px;
+    width: 606px;
+    color: green;
+
+}   
+.tb4 a{
+    text-decoration: none;
+    color: black;
+}
+.tb5{
+    position: absolute;
+    left: 900px;
+    top: 645px;
+    width: 606px;
+    color: green;
+}   
+.tb5 a{
+    text-decoration: none;
+    color: black;
+}
+.tb6{
+    position: absolute;
+    left: 900px;
+    top: 843px;
+    width: 606px;
+    color: black;
+}   
+.tb6 a{
+    text-decoration: none;
+    color: black;
+}
+.C{
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius: 25px 25px 25px 25px;
+    
+}
+.B{
+    background-color: rgb(222, 248, 196);
+    color: green;
+    width: 50%;
+    text-align: center;
+    border-radius: 25px 25px 25px 25px;
+    
+}
+.tb7{
+    position: absolute;
+    left: 900px;
+    top: 1310px;
+    width: 606px;
+}
+header ul.menu{
+    display: flex;
+    list-style: none;
+ }
+ header ul.menu1>li{
+    position: relative;
+     left:  20 3px;
+     margin: 0px 30px; /* Khoảng cách giữa các mục menu */
+     bottom: 75px;
+     list-style: none;
+     text-align: center;   
+     font-size: 15px;
+     width: 170px;
+ }
+.menu1 td{  
+    border: 3px solid rgb(16, 112, 27); /* Độ dày và màu sắc viền cho ô dữ liệu */
+    padding: 10px; /* Khoảng cách giữa nội dung và viền */ 
+    color: #ffffff;     
+    background-color: green;    
+}
+header ul.menu2>li{
+    position: relative;
+    bottom: 75px;
+    right: 160px;
+    margin: 0px 40px; /* Khoảng cách giữa các mục menu */
+    list-style: none;
+    text-align: center;   
+    font-size: 15px;
+     width: 150px;
+}
+.menu2 td{  
+   border: 3px solid #05f819; /* Độ dày và màu sắc viền cho ô dữ liệu */
+   padding: 10px; /* Khoảng cách giữa nội dung và viền */ 
+
+}
+header ul.menu3>li{
+    position: relative;
+    bottom: 75px;
+    right: 319px;
+    margin: 0px 40px; /* Khoảng cách giữa các mục menu */
+    list-style: none;
+    text-align: center;   
+    font-size: 15px;
+    width: 340px;
+}
+.menu3   td{  
+   border: 3px solid rgb(48, 80, 81); /* Độ dày và màu sắc viền cho ô dữ liệu */
+   padding: 10px; /* Khoảng cách giữa nội dung và viền */ 
+   color: white;
+
+}
+.input{
+    width: 400px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
