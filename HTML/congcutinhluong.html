@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cong cu</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <script src="./bootstrap-5.0.2-dist/js/jquery_3.5.1_jquery.min.js"></script>
+    <link rel="stylesheet" href="../CSS/tietkiem.css">
+    <link rel="stylesheet" href="../CSS/Style1.css">
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+</head>
+<style>
+    header{
+        width: 100%;
+        position: fixed;
+    }
+    .menu{
+    
+        display: flex;
+    }
+    .nav{
+        margin-top: 20px;
+        margin-left: 50px
+    }
+    .nav li a{
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+    }
+    .dndk{
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+    .content{
+        background-color: rgb(225, 225, 225);
+    }
+    .title--header{
+        font-size: 25px;
+        color: rgb(50, 152, 50);
+    }
+    .text0{
+        margin-left: 80px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .text1{
+      color: black;
+    }
+    .text2{
+      background-color: white;
+      margin-top: 15px;
+      border-radius: 10px;
+      width: 84%;
+      padding: 10px;
+    }
+    .text2 h1{
+      font-size: 20px;
+      color: green;
+      
+    }
+    .text2 a{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: black;
+      font-size: 15px;
+      
+    }
+    .text3{
+      background-color: white;
+      margin-top: 15px;
+      border-radius: 10px;
+      width: 84%;
+      padding: 10px;
+    }
+    .text3 h1{
+      font-size: 20px;
+      color: green;
+      
+    }
+    .text2 a{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: black;
+      font-size: 15px;
+      
+    }
+    .text4{
+      background-color: white;
+      border-radius: 0px 0px 10px 10px;
+      width: 84%;
+      padding: 10px;
+    }
+    .text4   h1{
+      font-size: 20px;
+      color: green;
+      
+    }
+    .text01{
+        margin-top: 15px;
+        margin-left: 80px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .mucluc{
+      background-color: rgb(245, 245, 245);
+      border-radius: 15px;
+      border-style: dashed ;
+      border-color: gray;
+      padding-left: 10px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .mucluc a{
+      font-size: 15px;
+      color: black;
+      padding-left: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .fontchu span i{
+      font-size: 15px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .fontchu span{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 15px;
+    }
+    .tb{
+      margin-right: 100px;
+      width: 85%;
+    }
+    .fontchu span a{
+      color: green;
+    }
+    .text02{
+        margin-top: 15px;
+        margin-left: 80px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .text03{
+        margin-top: 15px;
+        margin-left: 80px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .text03 span{
+        padding-bottom: 10px;
+    }
+</style>
+<body>
+        <header>
+            <div class="menu">
+                <a href="#"><img src="../Image/logo.png" alt="" width="80px" height="80px"></a>
+                <ul class="nav">
+                  <li class="nav-item"><a class="nav-link" href="../HTML/Trangchuu.html">TRANG CHỦ</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">TÌM VIỆC LÀM</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">CV HAY</a></li>
+                  <li class="nav-item"><a class="nav-link" href="../HTML/congcutinhtietkiem.html">CÔNG CỤ</a></li>
+                </ul>
+
+            </div>
+            <div class="dndk">
+                <a role="button" class="btn btn-outline-success" href="../HTML/Dangnhap.html" style="padding: 15px;" >Đăng nhập</a> 
+                <a role="button" class="btn btn-success" href="../HTML/DangKy.html"  style="padding: 15px;" >Đăng ký</a>
+                <a role="button" class="btn btn-secondary" href="#" style="padding: 15px;">Đăng tuyển & tìm hồ sơ</a> 
+
+            </div>
+        </header>
+        <div class="content">
+        <br> 
+        <br>
+        <br>
+        <div class="row" >
+            <div class="col-md-8">
+              <div class="text0">
+                <h1 class="title--header">Công cụ tính lương Groos sang Net và ngược lại [Chuẩn 2023]</h1>
+                <span style="font-size: 15px; color: gray;">Áp dụng mức giảm trừ gia cảnh mới nhất 11 triệu đồng/tháng (132 triệu đồng/năm) với nguời nộp thuế và 4,4 triệu đồng/tháng với mỗi người phụ thuộc (Theo Nghị quyết số 954/2020/UBTVQH14)</span> <br>
+                <span style="font-size: 15px; color: gray;">Áp dụng <span><a href="#" style="color: green;">mức lương tối thiểu vùng</a></span> mới nhất có hiệu lực từ ngày 01/07/2022 (Theo điều 3, Nghị định 38/2022/NĐ-CP)</span>
+                <div class="text1"><span style="font-size: 15px; "><span><b>Áp dụng quy định từ 01/07/2023 <span style="color: red;">(Mới nhất) </span> </b></span></span></div>
+              <div class="row">
+                <div class="col-md-4" style="background-color: rgb(225, 225, 225); border-radius: 10px; width: 32%; margin-left: 13px; margin-top: 10px;" >
+                  <span style="font-size: 15px;">Lương cơ sở:<br> <span style="color: green;font-size: 20px;" ><b>1,800,000đ</b></span></span>
+                </div>
+                <div class="col-md-4" style="background-color: rgb(225, 225, 225); border-radius: 10px; width: 30%; margin-left: 20px; margin-top: 10px;">
+                  <span style="font-size: 15px;">Giảm trừ gia cảnh bản thân:<br><span style="color: green; font-size: 20px;"><b>11,000,000đ</b></span></span>
+                </div>
+                <div class="col-md-4" style="background-color: rgb(225, 225, 225); border-radius: 10px; width: 30%; margin-left: 20px; margin-top: 10px;">
+                  <span style="font-size: 15px;">Người phụ thuộc <br><span style="color: green; font-size: 20px;"><b>4,400,000đ</b></span></span>
+                </div>
+              </div>
+              <div class="row" >
+                <div class="col-md-6" style="background-color: white; border-radius: 10px; width: 47%; margin-left: 2px; margin-top: 10px; ">
+                  <span style="font-size: 15px;"><b>Thu nhập(Gross)</b></span>
+                  <input type="text" placeholder="VND" class="form-control" style="width: 100%; margin-top: 10px;" > 
+                </div>
+                <div class="col-md-6" style="background-color: white; border-radius: 10px; width: 52%; margin-left: 2px; margin-top: 10px;">
+                  <span style="font-size: 15px;"><b>Số người phụ thuộc:</b></span>
+                  <input type="text" placeholder="VND" class="form-control" style="width: 100%; margin-top: 10px;" >
+                </div>
+              </div>
+              <div class="row" style="margin-top: 10px;">
+                <div class="col-md-4" style="width: 49%;" >
+                  <span style="font-size: 15px;" ><b>Mức lương đóng bảo hiểm</b></span> 
+                  <div style="margin-top: 10px; font-size: 15px;">
+                  <input type="radio">Trên lương chính thức khác 
+                </div>
+                </div>
+                <div class="col-md-4" style="width: 18%; ">
+                  <div style="margin-top: 40px; font-size: 15px;">
+                    <input type="radio" >Khác
+                  </div>
+                </div>
+                <div class="col-md-4" style="width:32%; margin-top: 30px;">
+                  <input type="text" placeholder="VND" class="form-control" style="width: 100%; float: right;"  >
+                </div>
+
+              </div>
+      
+              <div style="font-size: 15px; margin-top: 10px;">
+              <b>Vùng :</b> (<a href="#" style="color: red;"> Giải thích </a>) <br> 
+                <div style="margin-top: 10px; word-spacing: 30px;">
+                  <input type="radio">I   
+                  <input type="radio">II
+                  <input type="radio">III
+                  <input type="radio">IV 
+                </div>
+              </div>
+              <div style="text-align: center;">
+                <button type="button" class="btn btn-success" style="color: white; padding: 10px;">GROSS => NET</button>
+                <button type="button" class="btn btn-outline-success" style="color: green; padding: 10px;">NER => GROSS</button>
+              </div>
+            </div>
+              <div class="text01">
+                <h1 style="font-size: 25px; color: green;">
+                Các câu hỏi thường gặp (FAQs)       
+                </h1>       
+                <div>
+                  <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" style="width: 100%;"><span style="color: black; float: left;">Lương Gross là gì?</span></button>
+                  <div class="dropdown-menu" aria aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item"  href="#">Lương Gross là tổng số tiền mà người lao động nhận được trước khi trừ các khoản thuế, bảo hiểm, phụ cấp và các chi phí khác. Đây là số tiền thường được đưa ra khi đàm phán về mức lương và được thông báo trong hợp đồng lao động.</span>
+                  </div>
+                </div>
+                <div>
+                  <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" style="width: 100%;"><span style="color: black; float: left;">Lương Net là gì?</span></button>
+                  <div class="dropdown-menu" aria aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item"  href="#">Lương Gross là tổng số tiền mà người lao động nhận được trước khi trừ các khoản thuế, bảo hiểm, phụ cấp và các chi phí khác. Đây là số tiền thường được đưa ra khi đàm phán về mức lương và được thông báo trong hợp đồng lao động.</span>
+                  </div>
+                </div>
+                <div>
+                  <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" style="width: 100%;"><span style="color: black; float: left;">Công thức tính lương Gross là gì?</span></button>
+                  <div class="dropdown-menu" aria aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item"  href="#">Lương Gross = Lương cơ bản + Thưởng + Thuế thu nhập cá nhân + Bảo hiểm xã hội + Bảo hiểm y tế + Bảo hiểm thất nghiệp + Các khoản chi phí khác</span>
+                  </div>
+                </div>
+                <div>
+                  <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" style="width: 100%;"><span style="color: black; float: left;">Công thức tính lương Net là gì?</span></button>
+                  <div class="dropdown-menu" aria aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item"  href="#">Lương Net = Tổng thu nhập - (Thuế thu nhập cá nhân + Bảo hiểm xã hội + Bảo hiểm y tế + Bảo hiểm thất nghiệp + Các khoản khấu trừ khác)</span>
+                  </div>
+                </div>
+                <div>
+                  <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" style="width: 100%;"><span style="color: black; float: left;">Cách tính lương Gross sang Net?</span></button>
+                  <div class="dropdown-menu" aria aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item"  href="#">Sau khi trừ đi các khoản phí và thuế trên lương Gross, ta sẽ thu được số tiền lương Net. Công thức chung để tính lương Gross sang Net là: <br>
+
+
+                      Lương Net = Lương Gross - (Thuế thu nhập cá nhân + Bảo hiểm xã hội + Bảo hiểm y tế + Bảo hiểm thất nghiệp + Các khoản khấu trừ khác)</span>
+                  </div>
+                </div>
+                <div>
+                  <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" style="width: 100%;"><span style="color: black; float: left;">Cách quy đổi lương Net sang Gross?</span></button>
+                  <div class="dropdown-menu" aria aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item"  href="#">Để quy đổi lương Net sang lương Gross, ta cần tính toán lại các khoản phí và thuế đã bị trừ đi từ lương Gross. Công thức quy đổi từ lương Net sang lương Gross như sau: <br>
+
+
+                      Lương Gross = Lương Net + Thuế thu nhập cá nhân + Bảo hiểm xã hội + Bảo hiểm y tế + Bảo hiểm thất nghiệp + Các khoản chi phí khác</span>
+                  </div>
+                </div>
+                <div>
+                  <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" style="width: 100%;"><span style="color: black; float: left;">Lương Net có bao gồm thuế thu nhập cá nhân không?</span></button>
+                  <div class="dropdown-menu" aria aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item"  href="#">Lương Net có bao gồm thuế thu nhập cá nhân không?</span>
+                  </div>
+                </div>
+                <div>
+                  <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" style="width: 100%;"><span style="color: black; float: left;">Nên deal lương Gross hay Net?</span></button>
+                  <div class="dropdown-menu" aria aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item"  href="#">Bạn nên deal lương Gross để nắm rõ về các khoản phải đóng hàng tháng như: BHXH, BHYT, BHTN, thuế TNCN và quỹ công đoàn (nếu có). Tuy nhiên cũng cần hiểu rằng, dù bạn đàm phán với nhà tuyển dụng bằng loại lương nào thì nhà tuyển dụng cũng sẽ tính toán để số tiền phải trả cho bạn tương đương nhau.</span>
+                  </div>
+                </div>
+              </div>
+            <div class="text02">
+              <button type="button" class="btn btn-success" style="border-radius: 15px;">Thông báo mới nhất</button> <br>
+              <span style="font-size: 15px;"><span style="color: green; font-size: 17px;">Mức lương cơ sở năm 2023 của cán bộ, công chức, viên chức <br></span>
+                Ngày 11/11/2022, Quốc hội đã thông qua Nghị quyết 69/2022/QH15 về dự toán ngân sách Nhà nước năm 2023. Một trong điểm nội dung đáng chú ý trong Nghị quyết lần này là trong năm 2023 sẽ tăng lương cơ sở cho cán bộ, công chức, viên chức. <br> <br>
+                
+                Theo <span><a href="https://luatvietnam.vn/lao-dong/nghi-dinh-24-2023-nd-cp-muc-luong-co-so-moi-nhat-tu-01-7-2023-252445-d1.html" style="color: green;">Nghị định 24/2023/NĐ-CP</a></span> ngày 14/5/2023 được Chính phủ ban hành, từ ngày 01/07/2023 thực hiện tăng lương cơ sở cho cán bộ, công chức, viên chức lên mức 1,8 triệu đồng/tháng, tương đương tăng 20,8% so với mức lương cơ sở trước đó. <br> <br>
+                
+                Như vậy, có tất cả 02 mức lương cơ sở được áp dụng trong năm 2023, bao gồm: <br>
+                
+               <ul>
+                <li> Từ ngày 01/01/2023 đến hết ngày 30/06/2023: Mức lương cơ sở là 1,49 triệu đồng/tháng </li>
+                <li>  Từ ngày 01/07/2023: Mức lương cơ sở là 1,8 triệu đồng/tháng</li>
+               </ul>
+              </span>
+              <button type="button" class="btn btn-warning" style="border-radius: 15px;">Dự thảo mới nhất</button> <br>
+              <span style="font-size: 15px;"><span style="font-size: 17px; color: green;">Dự thảo Luật Bảo hiểm xã hội (BHXH) cập nhật ngày 09 tháng 05 năm 2023</span> <br>
+                Bộ Lao động - Thương binh và Xã hội (LĐ-TB&XH) đang lấy ý kiến Dự thảo Luật Bảo hiểm xã hội (BHXH) sửa đổi để đưa ra 2 phương án tính tiền lương làm căn cứ đóng BHXH. <br>
+                
+                <span style="color: green;">Phương án 1:</span> <br>
+                Giữ theo quy định hiện hành, mức lương tính đóng BHXH gồm mức lương và phụ cấp lương, các khoản bổ sung xác định mức tiền cụ thể trong hợp đồng. <br>
+                
+                Với phương án này, mức lương tính đóng BHXH sẽ tương đương khoảng 70% thu nhập thực tế hằng tháng của người lao động. <br>
+                
+                <span style=" color: green;" >Phương án 2:</span>
+                Tiền lương tháng tính đóng BHXH gồm lương và phụ cấp lương, các khoản bổ sung khác, trừ tiền thưởng, tiền hỗ trợ không liên quan công việc, chức danh. <br>
+                
+                Với phương án này, mức lương tính đóng BHXH sẽ tương đương khoảng 90% thu nhập thực tế hằng tháng của người lao động.</span>
+            </div>
+            <div class="text03">
+              <div>
+                <button type="button" class="btn btn-primary" style="font-size: 10px;">Khuyên dùng 742</button> 
+                <button type="button" class="btn btn-primary" style=" font-size: 10px;">Chia sẻ</button> <br>
+                <br>
+              </div>
+              <span style="font-size: 15px;">
+                <span style="font-size: 20px;  "><b>Cách tính lương Gross và lương Net</b></span> <br>
+                <b><i>Lương Net và lương Gross đều là mức lương được thỏa thuận giữa người lao động và nhà tuyển dụng. Tuy nhiên, lương Net và lương Gross có khác biệt tương đối lớn. Vậy lương Gross là gì, lương Net là gì? Mối quan hệ giữa lương Gross và lương Net là gì? TopCV sẽ giải đáp dưới đây.</i></b> <br>
+
+                <span style="color: red;">Lương Gross</span> <i>(hay còn gọi là lương gộp/lương trước thuế) là tổng thu nhập của người lao động, bao gồm cả thuế, các khoản đóng bảo hiểm (bảo hiểm y tế, bảo hiểm xã hội, bảo hiểm thất nghiệp),</i> và các phụ cấp khác. Mức lương thực nhận của bạn thường sẽ thấp hơn mức này vì bạn phải trích ra một phần để đóng bảo hiểm và nộp thuế thu nhập cá nhân. <br> 
+                <b>Công thức tính lương Gross</b> như sau: <br> <br>
+                <div class="row">
+                  <div class="col-md-12" style="border: dashed 1px; width: 95%; margin-left: 20px; padding: 20px;">
+                    <span style="margin-left: 140px;">LƯƠNG GROSS = LƯƠNG CƠ BẢN + THƯỞNG + CÁC KHOẢN CHI PHÍ KHÁC </span>
+                  </div>
+                </div>
+                <br>
+                <span><b>Ví dụ:</b> Nếu lương cơ bản của một nhân viên là 10 triệu đồng/tháng, anh ta được hưởng thêm phụ cấp tiền cơm 1 triệu đồng và khoản tiền thưởng 3 triệu đồng, lương Gross của anh ta sẽ là:</span> <br> <br>
+                <div class="row">
+                  <div class="col-md-12" style="border: dashed 1px; width: 95%; margin-left: 20px; padding: 20px;">
+                    <span style="margin-left: 140px;">Lương Gross = 10,000,000 + 1,000,000 + 3,000,000 = 14,000,000 đồng/tháng</span>
+                  </div>
+                </div>
+                <br>
+                <span><span style="color: red;">Lương Net</span> <i>(hay còn gọi là lương ròng/lương sau thuế)</i> là số tiền người lao động thực nhận sau khi trừ các khoản thuế, bảo hiểm, giảm trừ gia cảnh, và các khoản khác (nếu có). Khi đàm phán lương, nếu bạn muốn biết chính xác số tiền thực lĩnh thì có thể deal lương Net thay vì Gross. Vậy lương Net có bao gồm thuế thu nhập cá nhân không? Thực tế thì lương Net sẽ không bao gồm thuế thu nhập cá nhân. <br>
+
+                  <b>Công thức tính lương Net</b> như sau: <br> <br>
+                  <div class="row">
+                    <div class="col-md-12" style="border: dashed 1px; width: 95%; margin-left: 20px; padding: 20px;">
+                      <span style="margin-left: 50px;">LƯƠNG NET = TỔNG THU NHẬP - (THUẾ TNCN + BHXH + BHYT + BHTN + CÁC KHOẢN KHẤU TRỪ KHÁC)</span>
+                    </div>
+                  </div>  
+                </span>
+                <br>
+                <span>
+                  Để chuyển lương Gross sang Net hoặc quy đổi lương Net sang Gross online, bạn hãy nhập mức lương Gross hoặc lương Net của bản thân tại công cụ tính lương Net và Gross của TopCV phía trên để được tính toán chi tiết. Công cụ sẽ tự động tính lương Gross từ lương Net hoặc ngược lại, bạn sẽ biết rõ mức lương mình sẽ nhận được. <br>
+
+                  <span style="color: red;">Diễn giải quan hệ giữa lương Gross và lương Net bằng công thức:</span> <br> <br>
+                  <div class="row">
+                    <div class="col-md-12" style="border: dashed 1px; width: 95%; margin-left: 20px; padding: 20px;">
+                      <span style="margin-left: 100px;">LƯƠNG GROSS = LƯƠNG NET + BHXH + BHYT + BHTN + THUẾ TNCN + CHI PHÍ KHÁC</span>
+                    </div>
+                  </div> 
+                </span>
+                <br>
+                <span>
+                  <span style="font-size: 25px;">Lương Gross hay lương Net có lợi hơn cho người lao động?</span> <br>
+                  Thoạt nhìn, có thể bạn cho rằng lương Net có lợi hơn vì đó là số tiền bạn thực nhận, còn lương Gross thì bạn có cảm giác bị mất đi một khoản khi nhận lương. <br>
+
+                  Tuy nhiên trên thực tế, dù bạn quy đổi lương Net sang Gross - hay từ Gross sang Net, thì số tiền bạn nhận được cũng không thay đổi. Dù bạn đàm phán với nhà tuyển dụng bằng cách nào thì nhà tuyển dụng cũng sẽ tính toán để chi phí phải trả cho bạn nằm trong một khoảng nhất định.
+                </span>
+                <br>
+                <br>
+                <div class="row">
+                  <div class="col-md-12" style="border: dashed 1px; width: 95%; margin-left: 20px; padding: 20px;">
+                    <span>
+                      <b>Ví dụ:</b> Mức lương Gross là <span style="color: red;">15,000,000 VND</span> sẽ tương đương với mức lương Net <span style="color: red;">13,303,750 VND</span> trong trường hợp đóng bảo hiểm trên lương chính thức. <br> <br>
+    
+                      Vậy nên khi nhà tuyển dụng quyết định trả bạn mức lương Gross là <span style="color: red;">15,000,000 VND</span>, nếu bạn đàm phán mức lương Net thì lương của bạn sẽ là <span style="color: red;">13,303,750 VND</span> và ngược lại. <br> <br>
+    
+                      Về cơ bản lương bạn nhận được vẫn không đổi dù bạn đàm phán lương Net hay Gross. <br>
+                      <span style="color: gray; float: right;">Theo quy định mới nhất (Từ 01/07/2022)</span>
+                  </div>
+                </div>
+                <br>
+                <span>
+                  Tuy nhiên nếu tinh ý, bạn sẽ thấy rằng khi sử dụng lương Gross mức lương bạn nhận được sẽ minh bạch hơn. Với mức lương Gross bạn sẽ chủ động tính toán được mức lương Net của mình và biết được các khoản bảo hiểm, thuế mà công ty đóng cho bạn, nguợc lại với lương Net có thể bạn sẽ không biết được mức bảo hiểm công ty đóng cho mình là bao nhiêu.
+                </span>
+                <br>
+                <br>
+                <div class="row">
+                  <div class="col-md-12" style="border: dashed 1px; width: 95%; margin-left: 20px; padding: 20px;">
+                    <span><b>Ví dụ:</b> Mức lương Net là <span style="color: red;">13,500,000 VND</span> <br>
+                      Trường hợp đóng bảo hiểm trên mức lương chính thức lương Gross sẽ là <span style="color: red;">15,230,815 VND</span> <br>
+                      Trường hợp đóng bảo hiểm ở mức <span style="color: red;">5,000,000 VND</span> lương Gross sẽ là <span style="color: red;">14,156,579 VND</span> <br>
+                      Như ví dụ trên, bạn có thể thấy cùng một mức lương Net nhưng với mức đóng bảo hiểm khác nhau mức lương Gross bạn nhận được chênh nhau khá nhiều, lương Gross sẽ thể hiện chính xác quyền lợi bạn nhận được hơn là lương Net. <br>
+                      <span style="color: gray; float: right;">Theo quy định mới nhất (Từ 01/07/2022)</span></span>
+                  </div>
+                </div>
+                <span>
+                  Vậy nên, nếu có thể bạn hãy đàm phán với nhà tuyển dụng bằng luơng Gross, còn nếu nhà tuyển dụng và bạn làm việc với nhau trên lương Net thì bạn có thể hỏi rõ về mức đóng bảo hiểm mà công ty đóng cho bạn để nắm được chính xác hơn quyền lợi của mình. <br>
+
+                  Việc nắm rõ các thông tin liên quan đến lương Gross và Net đảm bảo người lao động có thể chủ động deal lương và tính toán số lương nhận được vào mỗi kỳ lương. Hãy sử dụng công cụ tính lương Gross - Net của TopCV để dễ dàng quy đổi lương Gross sang Net và lương Net sang Gross nhé!
+                </span>
+                <img src="../Image/Blue Illustrated Anime Desktop Wallpaper (1).png" alt="" height="475px" style="margin-top: 10px; border-radius: 10px;" >
+                <span style="margin-left: 150px; color: gray;">Công cụ tính lương Net sang Gross, Gross sang Net chuẩn 2023 trên TopCV</span> <br>
+            
+                <span style="color: red;">Bản quyền nội dung thuộc về TopCV.vn, được bảo vệ bởi Luật bảo vệ bản quyền tác giả <b>DMCA.</b> <br>
+                  Vui lòng không trích dẫn nội dung trang web khi chưa được sự cho phép của TopCV.</span>
+                </span>
+                <br>
+                <br>
+                <div>
+                  <button type="button" class="btn btn-primary" style="font-size: 10px;"><b>Khuyên dùng 742</b></button> 
+                  <button type="button" class="btn btn-primary" style=" font-size: 10px;"><b>Chia sẻ</b></button> <br>
+                </div>      
+            </div>
+            </div>   
+            <div class="col-md-4">
+              <img src="../Image/Bài viết liên quan.png" alt=" "width="400" height="230"  style="border-radius: 10px;" >
+                <div class="text2">
+                  <h1>Bài viết liên quan</h1>
+                  <hr>
+                  <a href="#">Giấy tờ thủ tục hồ sơ xin việc</a> <br>
+                  <a href="#">Tải mẫu sơ yếu lý lịch chuẩn miễn phí</a> <br>
+                  <a href="#">Cách viết Email xin việc tiếng Anh</a> <br>
+                  <a href="#">Các mẫu CV tham khảo theo nhóm ngành</a> <br>
+                  <a href="#">Mẫu đơn xin nghỉ việc chuẩn</a> <br>
+                  <a href="#">Hướng dẫn viết CV tiếng Nhật</a> <br>  
+                  <a href="#">Các mẫu CV tham khảo theo nhóm ngành</a>
+                </div>
+                <div class="text3">
+                    <h1>Hổ trợ<h1>
+                    <hr>
+                    <span style="color: black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 15px;">Bạn có chia sẻ hay cần tư vấn về cách tính <span style="color: green;">lãi xuất kép?</span></span> <br>
+                    <span style="color: black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 15px;">Hãy gửi email đề xuất tới <a href="#" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 15px; color: green;">hotro@forman.vn.</a></span>
+                </div>
+                <img src="../Image/Blue Illustrated Anime Desktop Wallpaper (2).png" alt="" width="398" height="230" style="margin-top: 15px; border-radius: 10px 10px 0px 0px;">
+                <div class="text4">
+                  <h1>Tạo CV miễn phí và tìm công việc mơ ước với FORMAN</h1>
+                  <span style="font-size: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">&#9745; 50+ mẫu CV "cực đẹp", chỉnh sửa dễ dàng trong 5 phút.</span> <br>
+                  <span style="font-size: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">&#9745; Chuyên trang việc làm chất lượng cao</span>
+                  <br>
+                  <div class="row" style="margin-top: 10px;">
+                    <div class="col-md-6">
+                      <button type="button" class="btn btn-success" style="margin-left: 10px; width: 180px;">Tạo CV</button>
+                    </div>
+                    <div class="col-md-6">
+                      <button type="button" class="btn btn-outline-success" style="width: 170px;"> Tìm việc ngay</button> 
+
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="text5">
+                  <img src="../Image/happytime-thumbnail.png" alt="" width="398" height="230" style="margin-top: 15px; border-radius: 10px;">
+                </div>
+            </div>
+        </div>
+        <br>
+      </div>
+    </div>     
+    <footer class="bg-dark text-center text-white">
+        <div class="container p-4">
+        <section class="mb-4">
+          <div class="socials-share">
+              <a class="bg-facebook" href="" target="_blank"><span class="fa fa-facebook"></span> Share</a>
+              <a class="bg-twitter" href="" target="_blank"><span class="fa fa-twitter"></span> Tweet</a>
+              <a class="bg-google-plus" href="" target="_blank"><span class="fa fa-google-plus"></span> Plus</a>
+              <a class="bg-pinterest" href="" target="_blank"><span class="fa fa-pinterest"></span> Pin</a>
+              <a class="bg-email" href="" target="_blank"><span class="fa fa-envelope"></span> Gmail</a>
+          </div> 
+        </section>
+        <section class="">
+          <form action="">
+            <div class="row d-flex justify-content-center">
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Sign up for our newsletter</strong>
+                </p>
+              </div>
+              <div class="col-md-5 col-12">
+                <div class="form-outline form-white mb-4">
+                  <input type="email" id="form5Example21" class="form-control" />
+                  <label class="form-label" for="form5Example21">Email address</label>
+                </div>
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+            
+        </section>
+        <section class="mb-4">
+          <p>
+              Tầng 9, TTTM Vạn Hạnh Mall, quận 10, Thành phố Hồ Chí Minh
+          </p>
+        </section>
+        <section class="">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Website đối tác</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="https://vieclam.tuoitre.vn/" class="text-white">vieclam.tuoitre.vn</a>
+                </li>
+                <li>
+                  <a href="https://vieclam.vietnamnet.vn/" class="text-white">hvieclam.vietnamnet.vn</a>
+                </li>
+                <li>
+                  <a href="https://vieclamit.careerbuilder.vn/" class="text-white">hvieclamit.careerbuilder.vn</a>
+                </li>
+                <li>
+                  <a href="https://vieclam.thanhnien.vn/" class="text-white">vieclam.thanhnien.vn</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Xây dựng sự nghiệp</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#" class="text-white">Thiết kế nội thất</a>
+                </li>
+                <li>
+                  <a href="#" class="text-white">Thiết kế đồ họa</a>
+                </li>
+                <li>
+                  <a href="#" class="text-white">Nhân viên kinh doanh</a>
+                </li>
+                <li>
+                  <a href="#" class="text-white">Freelancer</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Nhà tuyển dụng</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#" class="text-white">Đăng tuyển dụng</a>
+                </li>
+                <li>
+                  <a href="#" class="text-white">Tìm hồ sơ</a>
+                </li>
+                <li>
+                  <a href="#" class="text-white">Sản phẩm dịch vụ</a>
+                </li>
+                <li>
+                  <a href="#" class="text-white">Tìm kiếm tailent</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Liên hệ</h5>
+      
+              <ul class="list-unstyled mb-0">
+                 Địa chỉ: TTTM Vạn Hạnh Mall <br>
+                 Liên hệ: 012344566 <br>
+                 Email: ForMan@gmail.com
+              </ul>
+          </div>
+          </div>
+        </section>
+      </div>
+             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2023 Copyright:
+             <a class="text-white" href="https://ForMan.com/">ForMan.com</a>
+             </div>
+    </footer>
+</body>
+</html>
+
+  
